@@ -21,7 +21,7 @@ If you have a suggestion that would make this better, please fork the repo and c
 ## Link ##
 ------------------------------------------------------------------------------------------------------------------------
 
-<leandr0sms.github.io/cheatssheet-/>
+< leandr0sms.github.io/cheatssheet-/ >
 
 ## License: ##
 -------------------------------------------------------------------------------------------------------------------------
