@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CHEATSHEETS</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main>
+        <nav id="navbar" class="navbar">
+            <ul>
+              <li>
+                <a href="#navbar">Home</a>
+              </li>
+              <li>
+                <p>|</p>
+              </li>
+              <li>
+                <a href="#html">HTML</a>
+              </li>
+              <li>
+                <p>|</p>
+              </li>
+              <li>
+                <a href="#css">CSS</a>
+              </li>
+              <li>
+                <p>|</p>
+              </li>
+              <li>
+                <a href="#js">JS</a>
+              </li>
+            </ul>
+          </nav>
+        <Section>
+            <h1 id="home">******* CHEATSHEETS *******</h1>  
+        </Section>
+        <section>
+            <h2 id="html">HTML</h2>
+            <table>
+                <tr>
+                    <th>Element</th>
+                    <th>Discription</th>
+                    <th>Example</th>
+                </tr>
+                <tr>
+                    <td>&lt;!DOCTYPEhtml&gt;</td>
+                    <td>All HTML documents must start with this declaration.</td>
+                    <td>&lt;!DOCTYPEhtml&gt;</td>
+                </tr>
+                <tr>
+                    <td>&lt;html&gt;</td>
+                    <td>The root element of an HTML document.</td>
+                    <td>&lt;html&gt;<br>&lt;/html&gt;</td>
+                </tr>
+                <tr>
+                    <td>&lt;head&gt;</td>
+                    <td>The &lt;head&gt; element contains metadata about the document. ex: title, scripts, and style sheets.</td>
+                    <td>&lt;head&gt;<br>&lt;/head&gt;</td>
+                </tr>
+                <tr>
+                    <td>&lt;body&gt;</td>
+                    <td>The &lt;body&gt; HTML element represents the content of an HTML document.</td>
+                    <td>&lt;body&gt;<br>&lt;/body&gt;</td>
+                </tr>
+                <tr>
+                    <td>&lt;h1&gt;    &lt;h6&gt;</td>
+                    <td>The &lt;h1&gt; to &lt;h6&gt; elements represent six levels of headings. &lt;h1&gt; is the highest section level and &lt;h6&gt; is the lowest.</td>
+                    <td>&lt;h1&gt;Heading&lt;/h1&gt;</td>
+                </tr>
+                <tr>
+                    <td>&lt;script&gt;</td>
+                    <td>Used to embed Javascript in an HTML 
+                        document.</td>
+                    <td>&lt;script&gt;<br>&lt;/script&gt;</td>
+                </tr>
+                <!-- New row to add more elements
+                    <tr>
+                    <td>&lt;&gt;</td>
+                    <td></td>
+                    <td></td>
+                </tr>-->
+            </table>
+        </section>
+        <section>
+            <h2 id="css">CSS</h2>
+            <table>
+                <tr>
+                    <th>Selector</th>
+                    <th>Discription</th>
+                    <th>Example</th>
+                </tr>
+                <tr>
+                    <td>#</td>
+                    <td>Select a element by id to add style.</td>
+                    <td>#elementId { property: value; }</td>
+                </tr>
+                <tr>
+                    <td><strong>.</strong></td>
+                    <td>Select a element by class to add style.</td>
+                    <td>.className { property: value }</td>
+                </tr>
+                <tr>
+                    <td>Element tag without &lt;&gt;</td>
+                    <td>Select a element to add style.</td>
+                    <td>p { property: value }</td>
+                </tr>
+                <tr>
+                    <th>Element</th>
+                    <th>Discription</th>
+                    <th>Example</th>
+                </tr>
+                <tr>
+                    <td>background</td>
+                    <td>The background property sets all background style properties at once, such as color, image, origin and size, or repeat method.</td>
+                    <td>background: green; => Change the background color.<br>background: url("path to file") => Change the background to a image.</td>
+                </tr>
+                <tr>
+                    <td>border</td>
+                    <td>The border property sets an element's border. It sets the values of border-width, border-style, and border-color.</td>
+                    <td>border: 2px solid green; => Add a green 2px solid border to the element.</td>
+                </tr>
+                <!-- New row to add more properties
+                    <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>-->
+            </table>
+        </section>
+        <section>
+            <h2 id="js">JavaScript</h2>
+            <table>
+                <tr>
+                    <th>Item</th>
+                    <th>Discription</th>
+                    <th>Syntax</th>
+                </tr>
+                <tr>
+                    <td>Declare variables.<br>Ex: var, let, const</td>
+                    <td>var - global scope and can be changed.<br>let - Local to the block that they are declared in, can be changed.<br>const - Local to the block that they are declared in, can be changed.</td>
+                    <td>let = varName</td>
+                </tr>
+                <tr>
+                    <th>String</th>
+                    <th>Discription</th>
+                    <th>Syntax</th>
+                </tr>
+                <tr>
+                    <td>String length</td>
+                    <td>The length property of a String object contains the length of the string.</td>
+                    <td>const myString = "Hello"<br>concole.log(myString.lenght) => 5</td>
+                </tr>
+                <!-- New row
+                    <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>-->
+            </table>
+        </section>
+    </main>
+  </body>
+</html>
