@@ -71,3 +71,10 @@ table {
     border: 1px solid hsla(182, 77%, 35%, 0.5);
     padding: 20px;
   }
+
+  /*footer*/
+
+  footer {
+    text-align: right;
+    margin-top: 10px;
+  }
