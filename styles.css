@@ -79,7 +79,8 @@ table {
   td, th {
     white-space: nowrap;
     border: 1px solid hsla(182, 77%, 35%, 0.5);
-    padding: 20px;
+    padding: 1em;
+    font-size: small;
   }
 
   /*footer*/
