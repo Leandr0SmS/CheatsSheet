@@ -5,6 +5,7 @@ body {
   }
 
 /*nav bar*/
+
 ul {
     overflow: hidden;
     background-color:hsla(182, 77%, 35%, 0.5);
@@ -14,20 +15,24 @@ ul {
     padding: 0;
     width: 100%;
 }
+
 ul li {
     list-style-type: none;
     display: inline-block;
 }
+
 ul li a {
     display: block;
     color: aliceblue;
     text-align: center;
-    padding: 0 40px;
+    padding: 0.95em;
+    margin-inline: 20%;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1em;
     font-weight: bold;
     font-family: arial;
 }
+
 .navbar a:hover {
     color: #ffffff;
 }
@@ -37,10 +42,11 @@ ul li a {
 #home {
     background-color:hsla(182, 77%, 35%, 0.5);
     font-weight: bold;
-    font-size: 200%;
+    font-size: 2em;
     color: aliceblue;
-    margin-top: 55px;
-    width: 100%;
+    margin-top: 1.53em;
+    margin-bottom: 0;
+    padding: 0.2em;
     font-family: monospace, 'Courier New', Courier;
     text-align: center;
     letter-spacing: 110%;
