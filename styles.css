@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: aliceblue;
+    background-color: rgb(2, 14, 24);
     font-family: monospace, 'Courier New', Courier;
   }
 
@@ -8,7 +8,7 @@ body {
 
 ul {
     overflow: hidden;
-    background-color:hsla(182, 77%, 35%, 0.5);
+    background-color:hsla(183, 66%, 44%, 0.942);
     position: fixed;
     top: 0;
     margin: 0;
@@ -40,7 +40,7 @@ ul li a {
   /*Heading*/
 
 #home {
-    background-color:hsla(182, 77%, 35%, 0.5);
+    background-color:hsla(183, 66%, 44%, 0.845);
     font-weight: bold;
     font-size: 2em;
     color: aliceblue;
@@ -56,7 +56,7 @@ ul li a {
 
 #html, #css, #js{
     font-weight: bold;
-    color: hsla(182, 77%, 35%, 0.5);
+    color: hsla(184, 94%, 93%, 0.874);
     letter-spacing: 110%;
     margin-left: 5%;
 }
@@ -64,8 +64,9 @@ ul li a {
 /*table*/
 
 table {
-    border: 1px solid hsla(182, 77%, 35%, 0.5);
+    border: 1px solid hsla(183, 66%, 44%, 0.912);
     border-collapse: collapse;
+    color:aliceblue;
   }
 
   .tables {
@@ -73,12 +74,12 @@ table {
   }
 
   th {
-    background-color: hsla(182, 77%, 35%, 0.1);
+    background-color: hsla(183, 66%, 44%, 0.967);
   }
   
   td, th {
     white-space: nowrap;
-    border: 1px solid hsla(182, 77%, 35%, 0.5);
+    border: 1px solid hsla(183, 66%, 44%, 0.944);
     padding: 1em;
     font-size: small;
   }
