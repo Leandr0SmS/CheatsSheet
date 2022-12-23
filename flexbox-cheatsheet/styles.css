@@ -23,6 +23,12 @@ body {
     margin-bottom: 1%;
 }
 
+.home-buttom {
+    font-size: 1rem;
+    border: 1px solid rgb(194, 194, 194);
+    padding: 1%;
+}
+
 .flex-container {
     border: 2px solid rgb(194, 194, 194);
     margin: 3%;
