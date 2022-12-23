@@ -103,6 +103,14 @@ table {
     font-size: small;
   }
 
+  a {
+    color: var(--high-light);
+  }
+
+  a:hover {
+    color: var(--secon-divs)
+  }
+
   /*footer*/
 
   footer {
