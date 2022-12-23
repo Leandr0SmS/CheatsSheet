@@ -70,7 +70,6 @@ ul li a {
     font-weight: bold;
     color: var(--letters);
     letter-spacing: 110%;
-    margin-left: 5%;
 }
 
 /*table*/
@@ -79,7 +78,6 @@ ul li a {
   margin-top: 4%;
   margin-bottom: 1%;
   border-bottom: 1px dashed var(--secon-divs);
-  margin-right: 5%;
 }
 
 table {
