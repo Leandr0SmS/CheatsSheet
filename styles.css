@@ -1,14 +1,26 @@
+:root {
+  --background: #1d3557;
+  --divs: #457b9d;
+  --secon-divs: #a8dadc;
+  --letters: #f1faee;
+  --high-light: #e63946;
+}
+
 body {
     margin: 0;
-    background-color: aliceblue;
+    background-color:var(--background);
     font-family: monospace, 'Courier New', Courier;
-  }
+}
+
+main {
+  margin: 0 5%;
+}
 
 /*nav bar*/
 
 ul {
     overflow: hidden;
-    background-color:hsla(182, 77%, 35%, 0.3);
+    background-color:var(--divs);
     position: fixed;
     top: 0;
     margin: 0;
@@ -23,7 +35,7 @@ ul li {
 
 ul li a {
     display: block;
-    color: aliceblue;
+    color: var(--letters);
     text-align: center;
     padding: 0.95em;
     margin-inline: 20%;
@@ -34,16 +46,16 @@ ul li a {
 }
 
 .navbar a:hover {
-    color: #becfeef2;
+    color: var(--letters);
 }
 
   /*Heading*/
 
 #home {
-    background-color:hsla(182, 77%, 35%, 0.5);
+    background-color: var(--divs);
     font-weight: bold;
     font-size: 2em;
-    color: aliceblue;
+    color: var(--letters);
     margin-top: 1.53em;
     margin-bottom: 0;
     padding: 0.2em;
@@ -56,16 +68,24 @@ ul li a {
 
 #html, #css, #js{
     font-weight: bold;
-    color: hsla(182, 77%, 35%, 0.5);
+    color: var(--letters);
     letter-spacing: 110%;
     margin-left: 5%;
 }
 
 /*table*/
 
+.sub-title {
+  margin-top: 4%;
+  margin-bottom: 1%;
+  border-bottom: 1px dashed var(--secon-divs);
+  margin-right: 5%;
+}
+
 table {
-    border: 1px solid hsla(182, 77%, 35%, 0.5);
+    border: 1px solid var(--secon-divs);
     border-collapse: collapse;
+    color: var(--letters);
   }
 
   .tables {
@@ -73,7 +93,7 @@ table {
   }
 
   th {
-    background-color: hsla(182, 77%, 35%, 0.1);
+    background-color: var(--divs);
   }
   
   td, th {
@@ -89,4 +109,5 @@ table {
     text-align: right;
     margin-top: 50px;
     margin-right: 50px;
+    color: var(--letters);
   }
