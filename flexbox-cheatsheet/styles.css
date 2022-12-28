@@ -8,10 +8,57 @@
 
 body {
     background-color:var(--background);
-    margin: 4%;
     box-sizing: border-box;
-    color: azure;
+    color: var(--letters);
     font-family: monospace;
+    margin: 0;
+}
+
+/* Nav bar */
+
+#header-section {
+    background-color: var(--divs);
+    text-align: center;
+    margin: 0;
+    width: auto;
+    max-width: none;
+    border-bottom: 1px solid var(--letters);
+    box-shadow: 7px 7px 7px black;
+}
+
+#header-title {
+    margin: 0;
+    padding: 1%;
+}
+
+a {
+    text-decoration: none;
+    color: var(--background);
+    font-family: 'Dosis', sans-serif;
+}
+
+#nav {
+    justify-content: center;
+    align-items: center;
+    border: none;
+    margin: 0;
+}
+
+#nav-item {
+    display: flex;
+    margin: 0 2% 1% 2%;
+    width: 5rem;
+    height: 2.5rem;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--secon-divs);
+}
+
+/*Sections and boxs*/
+
+.home-buttom {
+    color: var(--letters);
 }
 
 .section-box {
@@ -53,33 +100,6 @@ body {
     height: 3rem;
     display: flex;
     justify-content: center;
-    align-items: center;
-}
-
-
-/* Nav bar */
-.header-section {
-    text-align: center;
-}
-
-a {
-    text-decoration: none;
-    color: aliceblue;
-    font-family: 'Dosis', sans-serif;
-}
-
-.nav {
-    justify-content: center;
-    align-items: center;
-}
-
-.nav-item {
-    display: flex;
-    margin: 2%;
-    width: 5rem;
-    height: 2.5rem;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
     align-items: center;
 }
 
