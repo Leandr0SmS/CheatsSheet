@@ -14,7 +14,7 @@ body {
 }
 
 main {
-  margin: 3%;
+  margin: 2%;
 }
 
 /*Heading*/
@@ -87,6 +87,7 @@ table {
 
   .tables {
     overflow-x:auto;
+    border: 2px solid var(--divs);
   }
 
   th {

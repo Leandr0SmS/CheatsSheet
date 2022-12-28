@@ -1,6 +1,13 @@
+:root {
+    --background: #1d3557;
+    --divs: #457b9d;
+    --secon-divs: #a8dadc;
+    --letters: #f1faee;
+    --high-light: #e63946;
+}
 
 body {
-    background-color:black;
+    background-color:var(--background);
     margin: 4%;
     box-sizing: border-box;
     color: azure;

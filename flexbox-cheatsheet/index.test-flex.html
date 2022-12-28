@@ -11,428 +11,433 @@
     <link rel="stylesheet" href="./styles.css">
   </head>
   <body>
-    <!--
-    <section class="section-box">
-        <h2 class="section-title">Standard:</h2>
-        <hr>
-        <h3 class="section-sub-title">Flex-start</h3>
-        <div class="flex-container">
-            <div class="flex-box">1</div>
-            <div class="flex-box">2</div>
-            <div class="flex-box">3</div>
-            <div class="flex-box">4</div>
-        </div>
-    </section>
-    -->
-    <section class="header-section section-box">
-        <h1 class="header-title section-title">FlexBox</h1>
-        <div class="nav flex-container" id="nav">
-            <div class="nav-item flex-box">
-                <a href="../index.html">
-                    Home
-                </a>
-            </div>
-            <div class="nav-item flex-box">
-                <a href="#flex-standart">
-                    Standard
-                </a>
-            </div>
-            <div class="nav-item flex-box">
-                <a href="#direction">
-                    Direction
-                </a>
-            </div>
-            <div class="nav-item flex-box">
-                <a href="#flex-wrap">
-                    Wrap
-                </a>
-            </div>
-            <div class="nav-item flex-box">
-                <a href="#align-items">
-                    Align-items
-                </a>
-            </div>
-            <div class="nav-item flex-box">
-                <a href="#align-content">
-                    Align-content
-                </a>
-            </div>
-            <div class="nav-item flex-box">
-                <a href="#gap-section">
-                    Gap
-                </a>
-            </div>
-        </div>
-    </section>
-    <section class="section-box" id="flex-standart">
-        <h2 class="section-title">
-            <a class="home-buttom" href="#nav">menu</a>
-            Standard:
-        </h2>
-        <hr>
-        <div class="flex-container">
-            <div class="flex-box">1</div>
-            <div class="flex-box">2</div>
-            <div class="flex-box">3</div>
-            <div class="flex-box">4</div>
-        </div>
-    </section>
-    <section class="section-box" id="flex-wrap">
-        <h2 class="section-title">
-            <a class="home-buttom" href="#nav">menu</a>
-            Wrap:
-        </h2>
-        <hr>
-        <h3 class="section-sub-title">Nowrap</h3>
-        <div class="flex-container" id="nowrap">
-            <div class="flex-box">1</div>
-            <div class="flex-box">2</div>
-            <div class="flex-box">3</div>
-            <div class="flex-box">4</div>
-            <div class="flex-box">5</div>
-            <div class="flex-box">6</div>
-            <div class="flex-box">7</div>
-            <div class="flex-box">8</div>
-        </div>
-        <h3 class="section-sub-title">Wrap</h3>
-        <div class="flex-container" id="wrap">
-            <div class="flex-box">1</div>
-            <div class="flex-box">2</div>
-            <div class="flex-box">3</div>
-            <div class="flex-box">4</div>
-            <div class="flex-box">5</div>
-            <div class="flex-box">6</div>
-            <div class="flex-box">7</div>
-            <div class="flex-box">8</div>           
-            <div class="flex-box">9</div>
-            <div class="flex-box">10</div>
-            <div class="flex-box">11</div>
-            <div class="flex-box">12</div>
-            <div class="flex-box">13</div>
-            <div class="flex-box">14</div>
-            <div class="flex-box">15</div>
-        </div>
-        <h3 class="section-sub-title">Wrap-reverse</h3>
-        <div class="flex-container" id="wrap-reverse">
-            <div class="flex-box">1</div>
-            <div class="flex-box">2</div>
-            <div class="flex-box">3</div>
-            <div class="flex-box">4</div>
-            <div class="flex-box">5</div>
-            <div class="flex-box">6</div>
-            <div class="flex-box">7</div>
-            <div class="flex-box">8</div>       
-            <div class="flex-box">9</div>
-            <div class="flex-box">10</div>
-            <div class="flex-box">11</div>
-            <div class="flex-box">12</div>
-            <div class="flex-box">13</div>
-            <div class="flex-box">14</div>
-            <div class="flex-box">15</div>
-        </div>
-    </section>
-    <section id="direction" class="section-box">
-        <h2 class="section-title">
-            <a class="home-buttom" href="#nav">menu</a>
-            Flex-diretion
-        </h2>
-        <hr>
-        <div id="direction-container" class="flex-container">
-            <div>
-                <h3 class="section-sub-title">Row</h3>
-                <div class="flex-direction" id="flex-direction-row">
-                    <div class="flex-box">1</div>
-                    <div class="flex-box">2</div>
-                    <div class="flex-box">3</div>
-                    <div class="flex-box">4</div>
+    <header>
+        <section class="header-section section-box">
+            <h1 class="header-title section-title">FlexBox</h1>
+            <div class="nav flex-container" id="nav">
+                <div class="nav-item flex-box">
+                    <a href="../index.html">
+                        Home
+                    </a>
                 </div>
-                <h3 class="section-sub-title">Row-reverse</h3>
-                <div class="flex-direction" id="flex-direction-row-reverse">
-                    <div class="flex-box">1</div>
-                    <div class="flex-box">2</div>
-                    <div class="flex-box">3</div>
-                    <div class="flex-box">4</div>
+                <div class="nav-item flex-box">
+                    <a href="#flex-standart">
+                        Standard
+                    </a>
+                </div>
+                <div class="nav-item flex-box">
+                    <a href="#direction">
+                        Direction
+                    </a>
+                </div>
+                <div class="nav-item flex-box">
+                    <a href="#flex-wrap">
+                        Wrap
+                    </a>
+                </div>
+                <div class="nav-item flex-box">
+                    <a href="#align-items">
+                        Align-items
+                    </a>
+                </div>
+                <div class="nav-item flex-box">
+                    <a href="#align-content">
+                        Align-content
+                    </a>
+                </div>
+                <div class="nav-item flex-box">
+                    <a href="#gap-section">
+                        Gap
+                    </a>
                 </div>
             </div>
-            <div id="flex-direction-column-div">
-                <h3 class="section-sub-title">Column</h3>
-                <div class="flex-direction" id="flex-direction-column">
-                    <div class="flex-box">1</div>
-                    <div class="flex-box">2</div>
-                    <div class="flex-box">3</div>
-                    <div class="flex-box">4</div>
+        </section>
+    </header>
+    <main>
+        <section class="section-box" id="flex-standart">
+            <h2 class="section-title">
+                <a class="home-buttom" href="#nav">menu</a>
+                Standard:
+            </h2>
+            <hr>
+            <div class="flex-container">
+                <div class="flex-box">1</div>
+                <div class="flex-box">2</div>
+                <div class="flex-box">3</div>
+                <div class="flex-box">4</div>
+            </div>
+        </section>
+        <section class="section-box" id="flex-wrap">
+            <h2 class="section-title">
+                <a class="home-buttom" href="#nav">menu</a>
+                Wrap:
+            </h2>
+            <hr>
+            <h3 class="section-sub-title">Nowrap</h3>
+            <div class="flex-container" id="nowrap">
+                <div class="flex-box">1</div>
+                <div class="flex-box">2</div>
+                <div class="flex-box">3</div>
+                <div class="flex-box">4</div>
+                <div class="flex-box">5</div>
+                <div class="flex-box">6</div>
+                <div class="flex-box">7</div>
+                <div class="flex-box">8</div>
+            </div>
+            <h3 class="section-sub-title">Wrap</h3>
+            <div class="flex-container" id="wrap">
+                <div class="flex-box">1</div>
+                <div class="flex-box">2</div>
+                <div class="flex-box">3</div>
+                <div class="flex-box">4</div>
+                <div class="flex-box">5</div>
+                <div class="flex-box">6</div>
+                <div class="flex-box">7</div>
+                <div class="flex-box">8</div>           
+                <div class="flex-box">9</div>
+                <div class="flex-box">10</div>
+                <div class="flex-box">11</div>
+                <div class="flex-box">12</div>
+                <div class="flex-box">13</div>
+                <div class="flex-box">14</div>
+                <div class="flex-box">15</div>
+            </div>
+            <h3 class="section-sub-title">Wrap-reverse</h3>
+            <div class="flex-container" id="wrap-reverse">
+                <div class="flex-box">1</div>
+                <div class="flex-box">2</div>
+                <div class="flex-box">3</div>
+                <div class="flex-box">4</div>
+                <div class="flex-box">5</div>
+                <div class="flex-box">6</div>
+                <div class="flex-box">7</div>
+                <div class="flex-box">8</div>       
+                <div class="flex-box">9</div>
+                <div class="flex-box">10</div>
+                <div class="flex-box">11</div>
+                <div class="flex-box">12</div>
+                <div class="flex-box">13</div>
+                <div class="flex-box">14</div>
+                <div class="flex-box">15</div>
+            </div>
+        </section>
+        <section id="direction" class="section-box">
+            <h2 class="section-title">
+                <a class="home-buttom" href="#nav">menu</a>
+                Flex-diretion
+            </h2>
+            <hr>
+            <div id="direction-container" class="flex-container">
+                <div>
+                    <h3 class="section-sub-title">Row</h3>
+                    <div class="flex-direction" id="flex-direction-row">
+                        <div class="flex-box">1</div>
+                        <div class="flex-box">2</div>
+                        <div class="flex-box">3</div>
+                        <div class="flex-box">4</div>
+                    </div>
+                    <h3 class="section-sub-title">Row-reverse</h3>
+                    <div class="flex-direction" id="flex-direction-row-reverse">
+                        <div class="flex-box">1</div>
+                        <div class="flex-box">2</div>
+                        <div class="flex-box">3</div>
+                        <div class="flex-box">4</div>
+                    </div>
                 </div>
-                <h3 class="section-sub-title">Column-reverse</h3>
-                <div class="flex-direction" id="flex-direction-column-reverse">
-                    <div class="flex-box">1</div>
-                    <div class="flex-box">2</div>
-                    <div class="flex-box">3</div>
-                    <div class="flex-box">4</div>
+                <div id="flex-direction-column-div">
+                    <h3 class="section-sub-title">Column</h3>
+                    <div class="flex-direction" id="flex-direction-column">
+                        <div class="flex-box">1</div>
+                        <div class="flex-box">2</div>
+                        <div class="flex-box">3</div>
+                        <div class="flex-box">4</div>
+                    </div>
+                    <h3 class="section-sub-title">Column-reverse</h3>
+                    <div class="flex-direction" id="flex-direction-column-reverse">
+                        <div class="flex-box">1</div>
+                        <div class="flex-box">2</div>
+                        <div class="flex-box">3</div>
+                        <div class="flex-box">4</div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section class="section-box" id="justify-content">
-        <h2 class="section-title">
-            <a class="home-buttom" href="#nav">menu</a>
-            justify-content:
-        </h2>
-        <hr>
-        <h3 class="section-sub-title">Flex-start</h3>
-        <div class="flex-container" id="justify-flex-start">
-            <div class="flex-box">1</div>
-            <div class="flex-box">2</div>
-            <div class="flex-box">3</div>
-            <div class="flex-box">4</div>
-        </div>
-        <h3 class="section-sub-title">Flex-end</h3>
-        <div class="flex-container" id="justify-flex-end">
-            <div class="flex-box">1</div>
-            <div class="flex-box">2</div>
-            <div class="flex-box">3</div>
-            <div class="flex-box">4</div>
-        </div>
-        <h3 class="section-sub-title">Center</h3>
-        <div class="flex-container" id="justify-center">
-            <div class="flex-box">1</div>
-            <div class="flex-box">2</div>
-            <div class="flex-box">3</div>
-            <div class="flex-box">4</div>
-        </div>
-        <h3 class="section-sub-title">Space-between</h3>
-        <div class="flex-container" id="justify-space-between">
-            <div class="flex-box">1</div>
-            <div class="flex-box">2</div>
-            <div class="flex-box">3</div>
-            <div class="flex-box">4</div>
-        </div>
-        <h3 class="section-sub-title">Space-around</h3>
-        <div class="flex-container" id="justify-space-around">
-            <div class="flex-box">1</div>
-            <div class="flex-box">2</div>
-            <div class="flex-box">3</div>
-            <div class="flex-box">4</div>
-        </div>
-        <h3 class="section-sub-title">Space-evenly</h3>
-        <div class="flex-container" id="justify-space-evenly">
-            <div class="flex-box">1</div>
-            <div class="flex-box">2</div>
-            <div class="flex-box">3</div>
-            <div class="flex-box">4</div>
-        </div>
-    </section>
-    <section class="section-box" id="align-items">
-        <h2 class="section-title">
-            <a class="home-buttom" href="#nav">menu</a>
-            Align-Items
-        </h2>
-        <hr>
-        <h3 class="section-sub-title">Flex-start</h3>
-        <div class="flex-container" id="align-items-start">
-            <div class="flex-box">1</div>
-            <div class="flex-box">2</div>
-            <div class="flex-box">3</div>
-            <div class="flex-box">4</div>
-        </div>
-        <h3 class="section-sub-title">Flex-end</h3>
-        <div class="flex-container" id="align-items-end">
-            <div class="flex-box">1</div>
-            <div class="flex-box">2</div>
-            <div class="flex-box">3</div>
-            <div class="flex-box">4</div>
-        </div>
-        <h3 class="section-sub-title">Center</h3>
-        <div class="flex-container" id="align-items-center">
-            <div class="flex-box">1</div>
-            <div class="flex-box">2</div>
-            <div class="flex-box">3</div>
-            <div class="flex-box">4</div>
-        </div>
-        <h3 class="section-sub-title">Strech</h3>
-        <div class="flex-container" id="align-items-strech">
-            <div class="flex-box">1</div>
-            <div class="flex-box">2</div>
-            <div class="flex-box">3</div>
-            <div class="flex-box">4</div>
-        </div>
-        <h3 class="section-sub-title">Baseline</h3>
-        <div class="flex-container" id="align-items-baseline">
-            <div class="flex-box one">1</div>
-            <div class="flex-box two">2</div>
-            <div class="flex-box three">3</div>
-            <div class="flex-box four">4</div>
-        </div>
-    </section>
-    <section class="section-box" id="align-content">
-        <h2 class="section-title">
-            <a class="home-buttom" href="#nav">menu</a>
-            Align-content:
-        </h2>
-        <hr>
-        <h3 class="section-sub-title">Flex-start</h3>
-        <div class="flex-container" id="content-start">
-            <div class="flex-box">1</div>
-            <div class="flex-box">2</div>
-            <div class="flex-box">3</div>
-            <div class="flex-box">4</div>
-            <div class="flex-box">5</div>
-            <div class="flex-box">6</div>
-            <div class="flex-box">7</div>
-            <div class="flex-box">8</div>           
-            <div class="flex-box">9</div>
-            <div class="flex-box">10</div>
-            <div class="flex-box">11</div>
-            <div class="flex-box">12</div>
-            <div class="flex-box">13</div>
-            <div class="flex-box">14</div>
-            <div class="flex-box">15</div>
-        </div>
-        <h3 class="section-sub-title">Flex-end</h3>
-        <div class="flex-container" id="content-end">
-            <div class="flex-box">1</div>
-            <div class="flex-box">2</div>
-            <div class="flex-box">3</div>
-            <div class="flex-box">4</div>
-            <div class="flex-box">5</div>
-            <div class="flex-box">6</div>
-            <div class="flex-box">7</div>
-            <div class="flex-box">8</div>           
-            <div class="flex-box">9</div>
-            <div class="flex-box">10</div>
-            <div class="flex-box">11</div>
-            <div class="flex-box">12</div>
-            <div class="flex-box">13</div>
-            <div class="flex-box">14</div>
-            <div class="flex-box">15</div>
-        </div>
-        <h3 class="section-sub-title">Center</h3>
-        <div class="flex-container" id="content-center">
-            <div class="flex-box">1</div>
-            <div class="flex-box">2</div>
-            <div class="flex-box">3</div>
-            <div class="flex-box">4</div>
-            <div class="flex-box">5</div>
-            <div class="flex-box">6</div>
-            <div class="flex-box">7</div>
-            <div class="flex-box">8</div>           
-            <div class="flex-box">9</div>
-            <div class="flex-box">10</div>
-            <div class="flex-box">11</div>
-            <div class="flex-box">12</div>
-            <div class="flex-box">13</div>
-            <div class="flex-box">14</div>
-            <div class="flex-box">15</div>
-        </div>
-        <h3 class="section-sub-title">Strech</h3>
-        <div class="flex-container" id="content-strech">
-            <div class="flex-box">1</div>
-            <div class="flex-box">2</div>
-            <div class="flex-box">3</div>
-            <div class="flex-box">4</div>
-            <div class="flex-box">5</div>
-            <div class="flex-box">6</div>
-            <div class="flex-box">7</div>
-            <div class="flex-box">8</div>           
-            <div class="flex-box">9</div>
-            <div class="flex-box">10</div>
-            <div class="flex-box">11</div>
-            <div class="flex-box">12</div>
-            <div class="flex-box">13</div>
-            <div class="flex-box">14</div>
-            <div class="flex-box">15</div>
-        </div>
-        <h3 class="section-sub-title">Space-between</h3>
-        <div class="flex-container" id="content-between">
-            <div class="flex-box">1</div>
-            <div class="flex-box">2</div>
-            <div class="flex-box">3</div>
-            <div class="flex-box">4</div>
-            <div class="flex-box">5</div>
-            <div class="flex-box">6</div>
-            <div class="flex-box">7</div>
-            <div class="flex-box">8</div>           
-            <div class="flex-box">9</div>
-            <div class="flex-box">10</div>
-            <div class="flex-box">11</div>
-            <div class="flex-box">12</div>
-            <div class="flex-box">13</div>
-            <div class="flex-box">14</div>
-            <div class="flex-box">15</div>
-        </div>
-        <h3 class="section-sub-title">Space-around</h3>
-        <div class="flex-container" id="content-around">
-            <div class="flex-box">1</div>
-            <div class="flex-box">2</div>
-            <div class="flex-box">3</div>
-            <div class="flex-box">4</div>
-            <div class="flex-box">5</div>
-            <div class="flex-box">6</div>
-            <div class="flex-box">7</div>
-            <div class="flex-box">8</div>           
-            <div class="flex-box">9</div>
-            <div class="flex-box">10</div>
-            <div class="flex-box">11</div>
-            <div class="flex-box">12</div>
-            <div class="flex-box">13</div>
-            <div class="flex-box">14</div>
-            <div class="flex-box">15</div>
-        </div>
-    </section>
-    <section class="section-box" id="gap-section">
-        <h2 class="section-title">
-            <a class="home-buttom" href="#nav">menu</a>
-            Gap:
-        </h2>
-        <hr>
-        <h3 class="section-sub-title">Gap: 5%</h3>
-        <div class="flex-container" id="gap">
-            <div class="flex-box">1</div>
-            <div class="flex-box">2</div>
-            <div class="flex-box">3</div>
-            <div class="flex-box">4</div>
-        </div>
-        <h3 class="section-sub-title">Gap (row / col) => gap: 1rem 3rem;</h3>
-        <div class="flex-container" id="gap-row-col">
-            <div class="flex-box">1</div>
-            <div class="flex-box">2</div>
-            <div class="flex-box">3</div>
-            <div class="flex-box">4</div>
-            <div class="flex-box">5</div>
-            <div class="flex-box">6</div>
-            <div class="flex-box">7</div>
-            <div class="flex-box">8</div>           
-            <div class="flex-box">9</div>
-            <div class="flex-box">10</div>
-            <div class="flex-box">11</div>
-            <div class="flex-box">12</div>
-            <div class="flex-box">13</div>
-            <div class="flex-box">14</div>
-            <div class="flex-box">15</div>
-        </div>
-        <h3 class="section-sub-title">Row-gap => row-gap: 2rem;</h3>
-        <div class="flex-container" id="row-gap">
-            <div class="flex-box">1</div>
-            <div class="flex-box">2</div>
-            <div class="flex-box">3</div>
-            <div class="flex-box">4</div>
-            <div class="flex-box">5</div>
-            <div class="flex-box">6</div>
-            <div class="flex-box">7</div>
-            <div class="flex-box">8</div>           
-            <div class="flex-box">9</div>
-            <div class="flex-box">10</div>
-            <div class="flex-box">11</div>
-            <div class="flex-box">12</div>
-            <div class="flex-box">13</div>
-            <div class="flex-box">14</div>
-            <div class="flex-box">15</div>
-        </div>
-        <h3 class="section-sub-title">Column-gap => column-gap: 6%;</h3>
-        <div class="flex-container" id="col-gap">
-            <div class="flex-box">1</div>
-            <div class="flex-box">2</div>
-            <div class="flex-box">3</div>
-            <div class="flex-box">4</div>
-    </section>
+        </section>
+        <section class="section-box" id="justify-content">
+            <h2 class="section-title">
+                <a class="home-buttom" href="#nav">menu</a>
+                justify-content:
+            </h2>
+            <hr>
+            <h3 class="section-sub-title">Flex-start</h3>
+            <div class="flex-container" id="justify-flex-start">
+                <div class="flex-box">1</div>
+                <div class="flex-box">2</div>
+                <div class="flex-box">3</div>
+                <div class="flex-box">4</div>
+            </div>
+            <h3 class="section-sub-title">Flex-end</h3>
+            <div class="flex-container" id="justify-flex-end">
+                <div class="flex-box">1</div>
+                <div class="flex-box">2</div>
+                <div class="flex-box">3</div>
+                <div class="flex-box">4</div>
+            </div>
+            <h3 class="section-sub-title">Center</h3>
+            <div class="flex-container" id="justify-center">
+                <div class="flex-box">1</div>
+                <div class="flex-box">2</div>
+                <div class="flex-box">3</div>
+                <div class="flex-box">4</div>
+            </div>
+            <h3 class="section-sub-title">Space-between</h3>
+            <div class="flex-container" id="justify-space-between">
+                <div class="flex-box">1</div>
+                <div class="flex-box">2</div>
+                <div class="flex-box">3</div>
+                <div class="flex-box">4</div>
+            </div>
+            <h3 class="section-sub-title">Space-around</h3>
+            <div class="flex-container" id="justify-space-around">
+                <div class="flex-box">1</div>
+                <div class="flex-box">2</div>
+                <div class="flex-box">3</div>
+                <div class="flex-box">4</div>
+            </div>
+            <h3 class="section-sub-title">Space-evenly</h3>
+            <div class="flex-container" id="justify-space-evenly">
+                <div class="flex-box">1</div>
+                <div class="flex-box">2</div>
+                <div class="flex-box">3</div>
+                <div class="flex-box">4</div>
+            </div>
+        </section>
+        <section class="section-box" id="align-items">
+            <h2 class="section-title">
+                <a class="home-buttom" href="#nav">menu</a>
+                Align-Items
+            </h2>
+            <hr>
+            <h3 class="section-sub-title">Flex-start</h3>
+            <div class="flex-container" id="align-items-start">
+                <div class="flex-box">1</div>
+                <div class="flex-box">2</div>
+                <div class="flex-box">3</div>
+                <div class="flex-box">4</div>
+            </div>
+            <h3 class="section-sub-title">Flex-end</h3>
+            <div class="flex-container" id="align-items-end">
+                <div class="flex-box">1</div>
+                <div class="flex-box">2</div>
+                <div class="flex-box">3</div>
+                <div class="flex-box">4</div>
+            </div>
+            <h3 class="section-sub-title">Center</h3>
+            <div class="flex-container" id="align-items-center">
+                <div class="flex-box">1</div>
+                <div class="flex-box">2</div>
+                <div class="flex-box">3</div>
+                <div class="flex-box">4</div>
+            </div>
+            <h3 class="section-sub-title">Strech</h3>
+            <div class="flex-container" id="align-items-strech">
+                <div class="flex-box">1</div>
+                <div class="flex-box">2</div>
+                <div class="flex-box">3</div>
+                <div class="flex-box">4</div>
+            </div>
+            <h3 class="section-sub-title">Baseline</h3>
+            <div class="flex-container" id="align-items-baseline">
+                <div class="flex-box one">1</div>
+                <div class="flex-box two">2</div>
+                <div class="flex-box three">3</div>
+                <div class="flex-box four">4</div>
+            </div>
+        </section>
+        <section class="section-box" id="align-content">
+            <h2 class="section-title">
+                <a class="home-buttom" href="#nav">menu</a>
+                Align-content:
+            </h2>
+            <hr>
+            <h3 class="section-sub-title">Flex-start</h3>
+            <div class="flex-container" id="content-start">
+                <div class="flex-box">1</div>
+                <div class="flex-box">2</div>
+                <div class="flex-box">3</div>
+                <div class="flex-box">4</div>
+                <div class="flex-box">5</div>
+                <div class="flex-box">6</div>
+                <div class="flex-box">7</div>
+                <div class="flex-box">8</div>           
+                <div class="flex-box">9</div>
+                <div class="flex-box">10</div>
+                <div class="flex-box">11</div>
+                <div class="flex-box">12</div>
+                <div class="flex-box">13</div>
+                <div class="flex-box">14</div>
+                <div class="flex-box">15</div>
+            </div>
+            <h3 class="section-sub-title">Flex-end</h3>
+            <div class="flex-container" id="content-end">
+                <div class="flex-box">1</div>
+                <div class="flex-box">2</div>
+                <div class="flex-box">3</div>
+                <div class="flex-box">4</div>
+                <div class="flex-box">5</div>
+                <div class="flex-box">6</div>
+                <div class="flex-box">7</div>
+                <div class="flex-box">8</div>           
+                <div class="flex-box">9</div>
+                <div class="flex-box">10</div>
+                <div class="flex-box">11</div>
+                <div class="flex-box">12</div>
+                <div class="flex-box">13</div>
+                <div class="flex-box">14</div>
+                <div class="flex-box">15</div>
+            </div>
+            <h3 class="section-sub-title">Center</h3>
+            <div class="flex-container" id="content-center">
+                <div class="flex-box">1</div>
+                <div class="flex-box">2</div>
+                <div class="flex-box">3</div>
+                <div class="flex-box">4</div>
+                <div class="flex-box">5</div>
+                <div class="flex-box">6</div>
+                <div class="flex-box">7</div>
+                <div class="flex-box">8</div>           
+                <div class="flex-box">9</div>
+                <div class="flex-box">10</div>
+                <div class="flex-box">11</div>
+                <div class="flex-box">12</div>
+                <div class="flex-box">13</div>
+                <div class="flex-box">14</div>
+                <div class="flex-box">15</div>
+            </div>
+            <h3 class="section-sub-title">Strech</h3>
+            <div class="flex-container" id="content-strech">
+                <div class="flex-box">1</div>
+                <div class="flex-box">2</div>
+                <div class="flex-box">3</div>
+                <div class="flex-box">4</div>
+                <div class="flex-box">5</div>
+                <div class="flex-box">6</div>
+                <div class="flex-box">7</div>
+                <div class="flex-box">8</div>           
+                <div class="flex-box">9</div>
+                <div class="flex-box">10</div>
+                <div class="flex-box">11</div>
+                <div class="flex-box">12</div>
+                <div class="flex-box">13</div>
+                <div class="flex-box">14</div>
+                <div class="flex-box">15</div>
+            </div>
+            <h3 class="section-sub-title">Space-between</h3>
+            <div class="flex-container" id="content-between">
+                <div class="flex-box">1</div>
+                <div class="flex-box">2</div>
+                <div class="flex-box">3</div>
+                <div class="flex-box">4</div>
+                <div class="flex-box">5</div>
+                <div class="flex-box">6</div>
+                <div class="flex-box">7</div>
+                <div class="flex-box">8</div>           
+                <div class="flex-box">9</div>
+                <div class="flex-box">10</div>
+                <div class="flex-box">11</div>
+                <div class="flex-box">12</div>
+                <div class="flex-box">13</div>
+                <div class="flex-box">14</div>
+                <div class="flex-box">15</div>
+            </div>
+            <h3 class="section-sub-title">Space-around</h3>
+            <div class="flex-container" id="content-around">
+                <div class="flex-box">1</div>
+                <div class="flex-box">2</div>
+                <div class="flex-box">3</div>
+                <div class="flex-box">4</div>
+                <div class="flex-box">5</div>
+                <div class="flex-box">6</div>
+                <div class="flex-box">7</div>
+                <div class="flex-box">8</div>           
+                <div class="flex-box">9</div>
+                <div class="flex-box">10</div>
+                <div class="flex-box">11</div>
+                <div class="flex-box">12</div>
+                <div class="flex-box">13</div>
+                <div class="flex-box">14</div>
+                <div class="flex-box">15</div>
+            </div>
+        </section>
+        <section class="section-box" id="gap-section">
+            <h2 class="section-title">
+                <a class="home-buttom" href="#nav">menu</a>
+                Gap:
+            </h2>
+            <hr>
+            <h3 class="section-sub-title">Gap: 5%</h3>
+            <div class="flex-container" id="gap">
+                <div class="flex-box">1</div>
+                <div class="flex-box">2</div>
+                <div class="flex-box">3</div>
+                <div class="flex-box">4</div>
+            </div>
+            <h3 class="section-sub-title">Gap (row / col) => gap: 1rem 3rem;</h3>
+            <div class="flex-container" id="gap-row-col">
+                <div class="flex-box">1</div>
+                <div class="flex-box">2</div>
+                <div class="flex-box">3</div>
+                <div class="flex-box">4</div>
+                <div class="flex-box">5</div>
+                <div class="flex-box">6</div>
+                <div class="flex-box">7</div>
+                <div class="flex-box">8</div>           
+                <div class="flex-box">9</div>
+                <div class="flex-box">10</div>
+                <div class="flex-box">11</div>
+                <div class="flex-box">12</div>
+                <div class="flex-box">13</div>
+                <div class="flex-box">14</div>
+                <div class="flex-box">15</div>
+            </div>
+            <h3 class="section-sub-title">Row-gap => row-gap: 2rem;</h3>
+            <div class="flex-container" id="row-gap">
+                <div class="flex-box">1</div>
+                <div class="flex-box">2</div>
+                <div class="flex-box">3</div>
+                <div class="flex-box">4</div>
+                <div class="flex-box">5</div>
+                <div class="flex-box">6</div>
+                <div class="flex-box">7</div>
+                <div class="flex-box">8</div>           
+                <div class="flex-box">9</div>
+                <div class="flex-box">10</div>
+                <div class="flex-box">11</div>
+                <div class="flex-box">12</div>
+                <div class="flex-box">13</div>
+                <div class="flex-box">14</div>
+                <div class="flex-box">15</div>
+            </div>
+            <h3 class="section-sub-title">Column-gap => column-gap: 6%;</h3>
+            <div class="flex-container" id="col-gap">
+                <div class="flex-box">1</div>
+                <div class="flex-box">2</div>
+                <div class="flex-box">3</div>
+                <div class="flex-box">4</div>
+        </section>
+    </main>
   </body>
 </html>
+
+<!--
+<section class="section-box">
+    <h2 class="section-title">Standard:</h2>
+    <hr>
+    <h3 class="section-sub-title">Flex-start</h3>
+    <div class="flex-container">
+        <div class="flex-box">1</div>
+        <div class="flex-box">2</div>
+        <div class="flex-box">3</div>
+        <div class="flex-box">4</div>
+    </div>
+</section>
+-->
