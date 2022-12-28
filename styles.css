@@ -65,19 +65,16 @@ main {
 
 /*Subhead*/
 
-#html, #css, #js{
-    font-weight: bold;
-    color: var(--letters);
-    letter-spacing: 110%;
-}
-
-/*table*/
-
 .sub-title {
   margin-top: 4%;
   margin-bottom: 1%;
   border-bottom: 1px dashed var(--secon-divs);
+  font-weight: bold;
+  color: var(--letters);
+  letter-spacing: 110%;
 }
+
+/*table*/
 
 table {
     border: 1px solid var(--secon-divs);
