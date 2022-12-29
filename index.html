@@ -8,10 +8,11 @@
     <title>CHEATSHEETS</title>
     
     <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/f0b8f00674.js" crossorigin="anonymous"></script>
   </head>
-  <body>
-    <header>
+  <body id="body">
+    <header id="header">
         <h1 id="home">CHEATSHEETS</h1>  
         <nav id="navbar" class="navbar">
             <ul id="nav-list">
@@ -45,78 +46,81 @@
     <main>
         <section>
             <h2 class="sub-title" id="html">HTML</h2>
-            <div class="tables">
-            <table>
-                <tr>
-                    <th>Element</th>
-                    <th>Discription</th>
-                    <th>Example</th>
-                </tr>
-                <tr>
-                    <td>&lt;!DOCTYPEhtml&gt;</td>
-                    <td>All HTML documents must start with this declaration.</td>
-                    <td>&lt;!DOCTYPEhtml&gt;</td>
-                </tr>
-                <tr>
-                    <td>&lt;html&gt;</td>
-                    <td>The root element of an HTML document.</td>
-                    <td>&lt;html&gt;<br>&lt;/html&gt;</td>
-                </tr>
-                <tr>
-                    <td>&lt;head&gt;</td>
-                    <td>The &lt;head&gt; element contains metadata about the document.<br>
-                        ex: title, scripts, and style sheets.</td>
-                    <td>&lt;head&gt;<br>&lt;/head&gt;</td>
-                </tr>
-                <tr>
-                    <td>&lt;body&gt;</td>
-                    <td>The &lt;body&gt; HTML element represents the content of an HTML document.</td>
-                    <td>&lt;body&gt;<br>&lt;/body&gt;</td>
-                </tr>
-                <tr>
-                    <td>&lt;script&gt;</td>
-                    <td>Used to embed Javascript in an HTML 
-                        document.</td>
-                    <td>&lt;script&gt;<br>&lt;/script&gt;</td>
-                </tr>
-                <tr>
-                    <td>&lt;link&gt;</td>
-                    <td>The link element specifies relationships between the current document and an external resource.</td>
-                    <td>&lt;link href="/example.css" rel="stylesheet"&gt;</td>
-                </tr>
-                <tr>
-                    <td>&lt;h1&gt;  ...  &lt;h6&gt;</td>
-                    <td>The &lt;h1&gt; to &lt;h6&gt; elements represent six levels of headings.<br>
-                        &lt;h1&gt; is the highest section level and &lt;h6&gt; is the lowest.</td>
-                    <td>&lt;h1&gt;Heading&lt;/h1&gt;</td>
-                </tr>
-                <tr>
-                    <td>&lt;p&gt;</td>
-                    <td>The &lt;p&gt; represents a paragraph.<br>
-                        Visually represent a block of text.</td>
-                    <td>&lt;p&gt;Add some text&lt;/p&gt;</td>
-                </tr>
-                <tr>
-                    <td>&lt;div&gt;</td>
-                    <td>The &lt;div&gt; element is a generic container for flow content.</td>
-                    <td>&lt;div&gt;<br>
-                            ...contents...<br>
-                        &lt;/div&gt;</td>
-                </tr>
-                <tr>
-                    <td>&lt;video&gt;</td>
-                    <td>The &lt;video&gt; element is used to add a video on a html file.<br>
-                    </td>
-                    <td>&lt;video&gt;<br>
-                        &lt;source src="/path/file.mp4" type="video/mp4"&gt;<br>
-                        Sorry, your browser doesn't support this video.<br>
-                        &lt;/video&gt;</td>
-                </tr>
-                <tr>
-                    <td>&lt;source&gt;</td>
-                    <td>The source tag is used to specify multiple media resources for media elements, such as video, audio, and picture.</td>
-                    <td>&lt;source src="/path" type = "video/mp4"&gt;</td>
-                </tr>
+            <table class="table-color table" id="table-html">
+                <thead>
+                    <tr>
+                        <th>Element</th>
+                        <th>Discription</th>
+                        <th>Example</th>
+                    </tr>
+                </thead>
+                <tbody> 
+                    <tr>
+                        <td>&lt;!DOCTYPEhtml&gt;</td>
+                        <td>All HTML documents must start with this declaration.</td>
+                        <td>&lt;!DOCTYPEhtml&gt;</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;html&gt;</td>
+                        <td>The root element of an HTML document.</td>
+                        <td>&lt;html&gt;<br>&lt;/html&gt;</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;head&gt;</td>
+                        <td>The &lt;head&gt; element contains metadata about the document.<br>
+                            ex: title, scripts, and style sheets.</td>
+                        <td>&lt;head&gt;<br>&lt;/head&gt;</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;body&gt;</td>
+                        <td>The &lt;body&gt; HTML element represents the content of an HTML document.</td>
+                        <td>&lt;body&gt;<br>&lt;/body&gt;</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;script&gt;</td>
+                        <td>Used to embed Javascript in an HTML 
+                            document.</td>
+                        <td>&lt;script&gt;<br>&lt;/script&gt;</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;link&gt;</td>
+                        <td>The link element specifies relationships between the current document and an external resource.</td>
+                        <td>&lt;link href="/example.css" rel="stylesheet"&gt;</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;h1&gt;  ...  &lt;h6&gt;</td>
+                        <td>The &lt;h1&gt; to &lt;h6&gt; elements represent six levels of headings.<br>
+                            &lt;h1&gt; is the highest section level and &lt;h6&gt; is the lowest.</td>
+                        <td>&lt;h1&gt;Heading&lt;/h1&gt;</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;p&gt;</td>
+                        <td>The &lt;p&gt; represents a paragraph.<br>
+                            Visually represent a block of text.</td>
+                        <td>&lt;p&gt;Add some text&lt;/p&gt;</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;div&gt;</td>
+                        <td>The &lt;div&gt; element is a generic container for flow content.</td>
+                        <td>&lt;div&gt;<br>
+                                ...contents...<br>
+                            &lt;/div&gt;</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;video&gt;</td>
+                        <td>The &lt;video&gt; element is used to add a video on a html file.<br>
+                        </td>
+                        <td>&lt;video&gt;<br>
+                            &lt;source src="/path/file.mp4" type="video/mp4"&gt;<br>
+                            Sorry, your browser doesn't support this video.<br>
+                            &lt;/video&gt;</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;source&gt;</td>
+                        <td>The source tag is used to specify multiple media resources for media elements, such as video, audio, and picture.</td>
+                        <td>&lt;source src="/path" type = "video/mp4"&gt;</td>
+                    </tr>
+                </tbody>
                 <!-- New row to add more elements
                     <tr>
                     <td>&lt;&gt;</td>
@@ -124,171 +128,187 @@
                     <td></td>
                 </tr>-->
             </table>
-            </div>
         </section>
         <section>
             <h2 class="sub-title" id="css">CSS</h2>
-            <div class="tables">
-            <table>
-                <tr>
-                    <th>Selector</th>
-                    <th>Discription</th>
-                    <th>Example</th>
-                </tr>
-                <tr>
-                    <td>#</td>
-                    <td>Select a element by id to add style.</td>
-                    <td>#elementId { property: value; }</td>
-                </tr>
-                <tr>
-                    <td><strong>.</strong></td>
-                    <td>Select a element by class to add style.</td>
-                    <td>.className { property: value }</td>
-                </tr>
-                <tr>
-                    <td>Element tag without &lt;&gt;</td>
-                    <td>Select a element to add style.</td>
-                    <td>p { property: value }</td>
-                </tr>
-                <tr>
-                    <th>Element</th>
-                    <th>Discription</th>
-                    <th>Example</th>
-                </tr>
-                <tr>
-                    <td>background</td>
-                    <td>The background property sets all background style properties at once,<br>
-                        such as color, image, origin and size, or repeat method.</td>
-                    <td>background: green; // Change the background color.<br>
-                        background: url("path to file") // Change the background to a image.</td>
-                </tr>
-                <tr>
-                    <td>border</td>
-                    <td>The border property sets an element's border. <br>
-                        It sets the values of border-width, border-style, and border-color.</td>
-                    <td>border: 2px solid green; // Add a green 2px solid border to the element.</td>
-                </tr>
-                <tr>
-                    <td>FlexBox [ <a href="./flexbox-cheatsheet/index.test-flex.html">cheatsheet</a> ]</td>
-                    <td colspan="2">
-                        One-dimensional layout model, and as a method that could offer space distribution<br> 
-                        between items in an interface and powerful alignment capabilities.
-                    </td>
-                </tr>
-                <tr>
-                    <td>Grid [ <a href="./grid-cheatsheet/index-grid.html">cheatsheet</a> ]</td>
-                    <td colspan="2">
-                        CSS Grid Layout excels at dividing a page into major regions or defining the<br> 
-                        relationship in terms of size, position, and layer, between parts of a control built from HTML primitives.
-                    </td>
-                </tr>
+            <table class="table-color table" id="table-css">
+                <thead>
+                    <tr>
+                        <th>Selector</th>
+                        <th>Discription</th>
+                        <th>Example</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>#</td>
+                        <td>Select a element by id to add style.</td>
+                        <td>#elementId { property: value; }</td>
+                    </tr>
+                    <tr>
+                        <td><strong>.</strong></td>
+                        <td>Select a element by class to add style.</td>
+                        <td>.className { property: value }</td>
+                    </tr>
+                    <tr>
+                        <td>Element tag without &lt;&gt;</td>
+                        <td>Select a element to add style.</td>
+                        <td>p { property: value }</td>
+                    </tr>
+                    <tr>
+                        <th>Element</th>
+                        <th>Discription</th>
+                        <th>Example</th>
+                    </tr>
+                    <tr>
+                        <td>background</td>
+                        <td>The background property sets all background style properties at once,<br>
+                            such as color, image, origin and size, or repeat method.</td>
+                        <td>background: green; // Change the background color.<br>
+                            background: url("path to file") // Change the background to a image.</td>
+                    </tr>
+                    <tr>
+                        <td>border</td>
+                        <td>The border property sets an element's border. <br>
+                            It sets the values of border-width, border-style, and border-color.</td>
+                        <td>border: 2px solid green; // Add a green 2px solid border to the element.</td>
+                    </tr>
+                    <tr>
+                        <td>FlexBox [ <a href="./flexbox-cheatsheet/index.test-flex.html">cheatsheet</a> ]</td>
+                        <td colspan="2">
+                            One-dimensional layout model, and as a method that could offer space distribution<br> 
+                            between items in an interface and powerful alignment capabilities.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Grid [ <a href="./grid-cheatsheet/index-grid.html">cheatsheet</a> ]</td>
+                        <td colspan="2">
+                            CSS Grid Layout excels at dividing a page into major regions or defining the<br> 
+                            relationship in terms of size, position, and layer, between parts of a control built from HTML primitives.
+                        </td>
+                    </tr>
+                </tbody>
                 <!-- New row to add more properties
                     <tr>
                     <td></td>
                     <td></td>
                     <td></td>
                 </tr>-->
-            </div>
             </table>
         </section>
         <section>
             <h2 class="sub-title" id="js">JavaScript</h2>
-            <div class="tables">
-            <table>
-                <tr>
-                    <th>Item</th>
-                    <th>Discription</th>
-                    <th>Syntax</th>
-                </tr>
-                <tr>
-                    <td>Declare variables.<br>Ex: var, let, const</td>
-                    <td>var - global scope and can be changed.<br>
-                        let - Local to the block that they are declared in, can be changed.<br>
-                        const - Local to the block that they are declared in, can be changed.</td>
-                    <td>let = varName</td>
-                </tr>
-                <tr>
-                    <th>Comparison</th>
-                    <th>Discription</th>
-                    <th>Syntax</th>
-                <tr>
-                <tr>
-                    <td>==</td>
-                    <td>Equality Operator compare two values and return a boolean.<br>
-                        Type coercion: If compare two different data types,<br>
-                        its will convert one type to another in order to compare.</td>
-                    <td>2 == 3 // false<br>
-                        1 == '1' // true</td>
-                </tr>
-                <tr>
-                    <td>===</td>
-                    <td>Strict equality Operator compare two values and return a boolean.<br>
-                    There is no type coercion.</td>
-                    <td> 2 === "2" // false<br>
-                         1 === 1 // true</td>
-                </tr>
-                <tr>
-                    <td>!=</td>
-                    <td>Inequality operator != is the opposite of the equality operator.<br>
-                        It will convert data types of values while comparing (type coersion)</td>
-                    <td>"1" != 1 // false<br>
-                         2 != 5 // true<br>
-                        0 != false // false</td>
-                </tr>
-                <tr>
-                    <td>!==</td>
-                    <td>Strict inequality operator !== is the opposite of the strict equality operator.<br>
+            <table class="table-color table" id="table-js">
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Discription</th>
+                        <th>Syntax</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Declare variables.<br>Ex: var, let, const</td>
+                        <td>var - global scope and can be changed.<br>
+                            let - Local to the block that they are declared in, can be changed.<br>
+                            const - Local to the block that they are declared in, can be changed.</td>
+                        <td>let = varName</td>
+                    </tr>
+                    <tr>
+                        <th>Comparison</th>
+                        <th>Discription</th>
+                        <th>Syntax</th>
+                    <tr>
+                    <tr>
+                        <td>==</td>
+                        <td>Equality Operator compare two values and return a boolean.<br>
+                            Type coercion: If compare two different data types,<br>
+                            its will convert one type to another in order to compare.</td>
+                        <td>2 == 3 // false<br>
+                            1 == '1' // true</td>
+                    </tr>
+                    <tr>
+                        <td>===</td>
+                        <td>Strict equality Operator compare two values and return a boolean.<br>
                         There is no type coercion.</td>
-                    <td>2 !== "2" // true<br>
-                        1 !== 1 // false</td>
-                </tr>
-                <tr>
-                    <th>String</th>
-                    <th>Discription</th>
-                    <th>Syntax</th>
-                </tr>
-                <tr>
-                    <td>String length</td>
-                    <td>The length property of a String object contains the length of the string.</td>
-                    <td>const myString = "Hello"<br>
-                        concole.log(myString.lenght); // 5</td>
-                </tr>
-                <tr>
-                    <td>String Slice</td>
-                    <td>The method slice takes start and end indices and returns an<br>
-                        String that has only the elements between them.</td>
-                    <td>const myString = "Hello"<br>
-                        concole.log(myString.slice(0, 2)); // He</td>
-                </tr>
-                <tr>
-                    <td>String indexOf</td>
-                    <td> The method searches through the String from the start to the end and returns the<br>
-                        index at which the requested value was found — or -1 if it wasn`t found.</td>
-                    <td>const myString = "Hello"<br>
-                        console.log(myString.indexOf("lo")); // 3</td>
-                </tr>
-                <tr>
-                    <th>Object</th>
-                    <th>Discription</th>
-                    <th>Syntax</th>
-                </tr>
-                <tr>
-                    <td>Math</td>
-                    <td>Math is a built-in object that has properties and methods<br>
-                        for mathematical constants and functions.</td>
-                    <td>properties: Math.PROPERTY<br>
-                        Methods: Math.Method()</td>
-                </tr>
-                <tr>
-                    <th>Math</th>
-                    <th>Discription</th>
-                    <th>Syntax</th>
-                </tr>
-                <tr>
-                    <td>Math.pow()</td>
-                    <td>The Math.pow() static method, given two arguments, base and exponent.</td>
-                    <td>Math.pow(2, 2); // 4 </td>
-                </tr>
+                        <td> 2 === "2" // false<br>
+                             1 === 1 // true</td>
+                    </tr>
+                    <tr>
+                        <td>!=</td>
+                        <td>Inequality operator != is the opposite of the equality operator.<br>
+                            It will convert data types of values while comparing (type coersion)</td>
+                        <td>"1" != 1 // false<br>
+                             2 != 5 // true<br>
+                            0 != false // false</td>
+                    </tr>
+                    <tr>
+                        <td>!==</td>
+                        <td>Strict inequality operator !== is the opposite of the strict equality operator.<br>
+                            There is no type coercion.</td>
+                        <td>2 !== "2" // true<br>
+                            1 !== 1 // false</td>
+                    </tr>
+                </tbody>
+                <thead>
+                    <tr>
+                        <th>String</th>
+                        <th>Discription</th>
+                        <th>Syntax</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>String length</td>
+                        <td>The length property of a String object contains the length of the string.</td>
+                        <td>const myString = "Hello"<br>
+                            concole.log(myString.lenght); // 5</td>
+                    </tr>
+                    <tr>
+                        <td>String Slice</td>
+                        <td>The method slice takes start and end indices and returns an<br>
+                            String that has only the elements between them.</td>
+                        <td>const myString = "Hello"<br>
+                            concole.log(myString.slice(0, 2)); // He</td>
+                    </tr>
+                    <tr>
+                        <td>String indexOf</td>
+                        <td> The method searches through the String from the start to the end and returns the<br>
+                            index at which the requested value was found — or -1 if it wasn`t found.</td>
+                        <td>const myString = "Hello"<br>
+                            console.log(myString.indexOf("lo")); // 3</td>
+                    </tr>
+                </tbody>
+                <thead>
+                    <tr>
+                        <th>Object</th>
+                        <th>Discription</th>
+                        <th>Syntax</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Math</td>
+                        <td>Math is a built-in object that has properties and methods<br>
+                            for mathematical constants and functions.</td>
+                        <td>properties: Math.PROPERTY<br>
+                            Methods: Math.Method()</td>
+                    </tr>
+                </tbody>
+                <thead>
+                    <tr>
+                        <th>Math</th>
+                        <th>Discription</th>
+                        <th>Syntax</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Math.pow()</td>
+                        <td>The Math.pow() static method, given two arguments, base and exponent.</td>
+                        <td>Math.pow(2, 2); // 4 </td>
+                    </tr>
+                </tbody>
                 <!-- New row
                     <tr>
                     <td></td>
@@ -296,7 +316,6 @@
                     <td></td>
                 </tr>-->
             </table>
-            </div>
         </section>
     </main>
     <footer>

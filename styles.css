@@ -6,15 +6,21 @@
   --high-light: #e63946;
 }
 
-body {
-    background-color:var(--background);
+#body {
     font-family: monospace, 'Courier New', Courier;
     margin: 0;
     box-sizing: border-box;
+    background-color: var(--background);
+    color: var(--letters);
+}
+
+#header {
+  background-color: var(--divs);
 }
 
 main {
   margin: 2%;
+  background-color: var(--background);
 }
 
 /*Heading*/
@@ -35,13 +41,14 @@ main {
 
 /*nav bar*/
 
-.navbar {
+#navbar {
   top: 0;
   margin: 0;
   padding: 0.5rem;
   background-color: var(--divs);
   position: fixed;
   width: 100%;
+  border-bottom: 1px solid var(--letters);
 }
 
 #nav-list {
@@ -66,45 +73,30 @@ main {
 /*Subhead*/
 
 .sub-title {
-  margin-top: 4%;
-  margin-bottom: 1%;
-  border-bottom: 1px dashed var(--secon-divs);
+  margin-top: 3rem;
+  margin-bottom: 0.3rem;
   font-weight: bold;
   color: var(--letters);
   letter-spacing: 110%;
 }
 
 /*table*/
+.table-color {
+  background-color: var(--divs);
+}
 
-table {
-    border: 1px solid var(--secon-divs);
-    border-collapse: collapse;
-    color: var(--letters);
-  }
+.table {
+  border-bottom: 1px solid var(--letters);
+  color: var(--letters);
+}
 
-  .tables {
-    overflow-x:auto;
-    border: 2px solid var(--divs);
-  }
+a {
+  color: var(--high-light);
+}
 
-  th {
-    background-color: var(--divs);
-  }
-  
-  td, th {
-    white-space: nowrap;
-    border: 1px solid hsla(182, 77%, 35%, 0.5);
-    padding: 1em;
-    font-size: small;
-  }
-
-  a {
-    color: var(--high-light);
-  }
-
-  a:hover {
-    color: var(--secon-divs)
-  }
+a:hover {
+  color: var(--secon-divs)
+}
 
   /*footer*/
 
