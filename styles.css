@@ -86,7 +86,6 @@ main {
 }
 
 .table {
-  border-bottom: 1px solid var(--letters);
   color: var(--letters);
 }
 
